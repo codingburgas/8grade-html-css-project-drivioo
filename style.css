@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+.logo{
+    position: absolute;
+    top:-50px;  
+    
+}
+    
+.drivioo{
+    position: absolute;
+    font-size: 1000%;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 20%;    
+    left:650px;  
+}
+#video{ /* We use # because is an id and not a class */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This makes an image or video fill its container completely */
+    z-index: -1; /* Puts the video at the bacк */
+}
+
+
+.btn{
+  text-align:center;
+  width:100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  
+  }
+.btn h1{
+    font-size: 175px;
+    color: #fff;
+    margin-bottom:50PX;
+    text-align: center;
+    margin-top: 35vh;
+  
+  }
+.btn a{
+    font-size: 27px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius:50px;
+    transition: 0.3s;
+  }
+.btn a{
+    font-size: 27px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius:50px;
+    transition: 0.3s;
+}
+.btn a:hover{
+    background-color: #ffffff;
+    color:black;
+}
+.btn h2{
+    color: #fff;
+    font-family:serif;
+    margin-top: -3.5%;
+    padding-bottom: 1%;
+}
