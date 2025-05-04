@@ -35,49 +35,45 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   }
- 
-  h1 {
-   
-    margin-bottom: 40px;
+
+  h1{
     color: #c40606;
   }
- 
-  form {
- 
-    font-size: 36px;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #000;
-    position: relative;
-    margin-bottom: 40px;
-    letter-spacing: 1px;
-text-shadow: 1px 1px 0 #fff, 2px 2px 0 #c40606;
-  }
- 
-.form input, .form textarea {
+
+.form input {
+    width: 99%;
     padding: 12px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-    width: 90%;
-    margin-left: 3%;
+    border-radius: 6px;
 }
- 
-  .btn {
-    width: fit-content;
-    padding: 12px 25px;
-    background-color: #000;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
+
+.message {
+  width: 99%;
+  min-height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  resize: both;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn {
+    font-size: 20px;
+    color: #fff;
+    background-color: #000000;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
     transition: 0.3s;
-    margin-left: 44%;
-  }
- 
-  .btn:hover {
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
     background-color: #c40606;
-  }
+}
  
   .contact {
     display: flex;
