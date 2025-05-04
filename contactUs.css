@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
     color: #333;
-    background: linear-gradient(to right, #000000, #e9ecef);
+    background: linear-gradient(to right, #000000, #e9ecef, #000000);
   }
  
   nav {

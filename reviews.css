@@ -1,0 +1,111 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #000000, #ffffff, #000000); /* Gradient background from black to white */
+}
+nav {
+    text-align: center;
+    background-color: black;
+}
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    transition: 0.5s;
+   
+   
+}
+nav a:hover {
+    background-color: #c40606;
+    border-radius: 60px;
+}
+ 
+.contactus {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around the contact form */
+}
+ 
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+ 
+.form input, .form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+ 
+.btn {
+    font-size: 20px;
+    color: #fff;
+    background-color: #333;
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-align: center;
+    cursor: pointer;
+}
+ 
+.btn:hover {
+    background-color: #c40606;
+}
+ 
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    gap: 20px;
+}
+ 
+.review {
+    display: flex;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 90%;
+    max-width: 1220px;
+    border-radius: 10px;
+    gap: 20px; /* Space between image and text */
+}
+ 
+.review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Makes image circular */
+    object-fit: cover; /* Ensures the image fills the space correctly */
+    flex-shrink: 0; /* Prevents image from shrinking */
+}
+ 
+.review-content {
+    flex: 1;
+    text-align: left;
+}
+ 
+.review-content h3 {
+    margin: 0 0 5px;
+}
+ 
+.review-content p {
+    font-size: 16px;
+    color: #000000;
+    margin: 0 0 10px;
+}
+ 
+.review-content span {
+    font-size: 20px;
+    color: #FFD700;
+}

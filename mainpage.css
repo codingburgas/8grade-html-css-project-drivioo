@@ -105,5 +105,13 @@ body
 .h1{
     color: white;
 }
+
+.payment img{
+    width: 200%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10%;
+    margin-left: 110%;
+}
  
  
