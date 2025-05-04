@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: black;
+    overflow-x: hidden; /* Prevents horizontal scrolling from overflowing content */
+  }
+  
+  .nav {
+    text-align: center;
+    background-color: black;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    transition: 0.5s; /* Smooth hover effect */
+  }
+  
+  .navbar, .nav {
+    text-align: center;
+    background-color: black;
+  }
+  
+  nav a:hover {
+    background-color: #c40606;
+    border-radius: 60px; /* Circular background on hover */
+  }
+  
+  .section {
+    display: flex;
+    height: 500px;
+  }
+  
+  .half {
+    width: 50%;
+    padding: 40px;
+  }
+  
+  .top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    text-align: left;
+    background: linear-gradient(to right, white, black); /* Fades from black to white */
+  }
+  
+  .top-left h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  
+  .top-right {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .car1 {
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
+  
+  .middle {
+    display: flex;
+    height: 600px;
+  }
+  
+  .middle-left {
+    width: 30%;
+    background: linear-gradient(to right, black, white); 
+  }
+  
+  .middle-left h1 {
+    writing-mode: vertical-rl; /* Vertical text layout from top to bottom */
+    text-orientation: downright; /* Makes sure letters are upright */
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 10px;
+    margin: 110px 0 0 150px;
+    transform: rotate(-180deg); /* Flips the vertical text to read bottom-to-top */
+  }
+  
+  .middle-center {
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+    background-color: white;
+  }
+  
+  .drivioo {
+    width: 28%;
+    writing-mode: vertical-rl; 
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(to right, white, black);
+  }
+  
+  
+  .bottom {
+    display: flex;
+    height: 300px;
+  }
+  
+  .bottom-left {
+    width: 50%;
+    background-color: #c4a3a0;
+  }
+  
+  .car2 {
+    width: 100%;
+    height: 170%; 
+  }
+  
+  .bottom-right {
+    width: 50%;
+    height: 170%; /* Matches image height to keep visual alignment */
+    color: #c40606;
+    padding: 30px 0 30px 180px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, black, white); 
+  }
+  
+  .why-drivioo h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .why-drivioo p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgb(0, 0, 0);
+  }
+  
+  b::before {
+    content: "✔"; /* Adds a checkmark before each <b> element */
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  
