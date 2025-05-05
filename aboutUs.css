@@ -160,4 +160,117 @@
     color: #ffffff;
     margin-right: 10px;
   }
-  
+  .footer {
+    background: #000000;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px 20px 20px;
+  }
+   
+  .content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+   
+  .logo img {
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 40%;
+    margin-left: -30%;
+  }
+  .logo p {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: -30%;
+  }
+   
+  .section {
+    flex: 1 1 220px;
+    min-width: 200px;
+  }
+   
+  .section h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #ffffff;
+  }
+   
+  .section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+   
+  .section ul li {
+    margin: 6px 0;
+    font-size: 15px;
+  }
+   
+  .section a {
+    color: #ccc;
+    text-decoration: none;
+  }
+   
+  .section a:hover {
+    color: #c40606;
+  }
+   
+  .letter {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+  }
+   
+  .letter input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+  }
+   
+  .letter button {
+    background-color: #c40606;
+    color: white;
+    border: none;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+   
+  .letter button:hover {
+    background-color: #00000088;
+  }
+   
+  .bottom {
+    border-top: 1px solid #333;
+    margin-top: 40px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    width: 1000%;        
+    box-sizing:content-box;
+  }
+   
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+  }
+   
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+   
+  .social-icons a:hover {
+    color: #c40606;
+    transform: scale(1.2);
+  }
