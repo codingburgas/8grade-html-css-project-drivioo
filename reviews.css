@@ -216,15 +216,14 @@ nav a:hover {
     gap: 15px;
     margin-top: 15px;
   }
-   
+  
   .social-icons a {
     color: #fff;
     font-size: 24px;
     transition: color 0.3s ease, transform 0.3s ease;
   }
-   
+  
   .social-icons a:hover {
     color: #c40606;
     transform: scale(1.2);
   }
-   
