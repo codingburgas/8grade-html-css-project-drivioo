@@ -79,7 +79,7 @@
   }
    
   .section.gray {
-    background-color: #ffffff;
+    background: white;
     color: #c40606;
   }
    
@@ -89,7 +89,7 @@
   }
    
   .section.red {
-    background: linear-gradient(to top, #c40606, #000000);
+    background: linear-gradient(to top, #222, #c40606);
     color: white;
     flex-direction: column;
     text-align: center;
