@@ -40,48 +40,64 @@ body {
     color: #c40606;
   }
 
-.form input {
-    width: 99%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+.contactus {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around the contact form */
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 0;
 }
 
-.message {
-  width: 99%;
-  min-height: 100px;
-  padding: 10px;
-  font-size: 16px;
-  resize: both;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input,
+.form textarea {
+  width: 600%;
+  padding: 12px;
+  margin-bottom: 20px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 6px;
   box-sizing: border-box;
 }
 
+.message {
+  width: 600%;
+  min-height: 110px;
+  resize: both;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
+}
+
 .btn {
-    font-size: 20px;
-    color: #fff;
-    background-color: #000000;
-    border: 2px solid #fff;
-    padding: 10px 20px;
-    border-radius: 50px;
-    transition: 0.3s;
-    text-align: center;
-    cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000000;
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #c40606;
+  background-color: #c40606;
 }
- 
-  .contact {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 40px 0;
-  }
+
  
   .box {
     flex: 1;

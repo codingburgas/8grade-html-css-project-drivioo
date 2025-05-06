@@ -49,8 +49,14 @@ nav a:hover {
 }
  h1{
     color: #c40606;
-
  }
+
+ .message {
+  width: 600%;
+  min-height: 85px;
+  resize: both;
+}
+
 .btn {
     font-size: 20px;
     color: #fff;
@@ -59,8 +65,12 @@ nav a:hover {
     padding: 10px 20px;
     border-radius: 50px;
     transition: 0.3s;
-    text-align: center;
     cursor: pointer;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
 }
  
 .btn:hover {
