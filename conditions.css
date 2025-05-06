@@ -18,25 +18,24 @@
   }
    
   nav {
-    background-color: #000;
     text-align: center;
-    padding: 10px 0;
+    background-color: #000;
   }
-   
+ 
   nav a {
     color: white;
+    padding: 15px 20px;
     text-decoration: none;
-    font-size: 18px;
-    margin: 0 15px;
-    padding: 12px 18px;
-    border-radius: 30px;
-    transition: background 0.3s, transform 0.2s;
     display: inline-block;
-  }
-   
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    transition: 0.5s;
+}
+ 
   nav a:hover {
     background-color: #c40606;
-    transform: scale(1.05);
+    border-radius: 60px;
   }
    
   header.top-banner {

@@ -43,6 +43,7 @@ nav a:hover {
   width: 100%;
   height: 50vh; 
   overflow: hidden;
+  background-color: #f4f4f4;
 }
 
 .main video {
@@ -60,8 +61,7 @@ nav a:hover {
 }
 
 .text h1 {
-  font-size: 600%;
-  margin-top: ;
+  font-size: 500%;
 }
 
 .text p {
@@ -154,7 +154,7 @@ nav a:hover {
 }
 
 .team {
-  background-color: rgb(255, 244, 230);
+  background-color: #f4f4f4;
   padding: 40px;
   text-align: center;
 }
@@ -163,7 +163,7 @@ nav a:hover {
   font-size: 36px;
   color: #c40606;
   margin-bottom: 30px;
-  text-transform: uppercase;
+  
 }
 
 .team-members {
@@ -175,7 +175,7 @@ nav a:hover {
 }
 
 .member {
-  background-color: #ffffff;
+  background-color: #000000;
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -197,25 +197,7 @@ nav a:hover {
 .member h4 {
   margin: 10px 0 5px;
   font-size: 18px;
-  color: #333;
-}
-
-.member p {
-  font-size: 14px;
-  color: #777;
-}
-
-.testimonial {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background: #f0f0f0;
-  padding: 40px;
-}
-
-.testimonial img {
-  width: 150px;
-  border-radius: 50%;
+  color: #c40606;
 }
 
 .footer {
@@ -240,7 +222,6 @@ nav a:hover {
   margin-top: 40%;
   margin-left: -30%;
 }
-
 .logo p {
   margin-top: 12px;
   font-size: 16px;
@@ -307,14 +288,14 @@ nav a:hover {
 }
 
 .bottom {
-  border-top: 1px solid #424242;
+  border-top: 1px solid #333;
   margin-top: 40px;
   padding-top: 15px;
   text-align: center;
   font-size: 13px;
   color: #aaa;
-  width: 1000%;
-  box-sizing: content-box;
+  width: 1000%;        
+  box-sizing:content-box; 
 }
 
 .social-icons {
@@ -334,105 +315,48 @@ nav a:hover {
   transform: scale(1.2);
 }
 
-
-
-.why-us {
-  background-color: black;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-
-
-
-.carousel-css {
-  position: relative;
-  max-width: 100%;
-  height: 400px;
-  overflow: hidden;
-  background: white;
-}
-
-.carousel-css input {
-  display: none;
-}
-
-.slides {
+.container {
   display: flex;
-  width: 300%;
-  transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-  position: relative;
-  width: 100%;
-  flex-shrink: 0;
-}
-
-.slide img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  display: block;
-}
-
-.caption {
-  position: absolute;
-  bottom: 20px;
-  left: 30px;
-  font-size: 24px;
-  color: #fff;
-  background-color: rgba(0,0,0,0.6);
-  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  overflow: hidden;
 }
-
-.prev, .next {
-  position: absolute;
-  top: 50%;
+.text-section {
+  flex: 1;
+  padding: 40px;
+}
+.text-section h1 {
   font-size: 40px;
-  color: white;
-  background-color: rgba(0,0,0,0.4);
-  padding: 10px;
-  cursor: pointer;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  z-index: 1;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-
-/* Slide positions */
-#slide1:checked ~ .slides {
-  transform: translateX(0%);
-}
-
-#slide2:checked ~ .slides {
-  transform: translateX(-100%);
-}
-
-#slide3:checked ~ .slides {
-  transform: translateX(-200%);
-}
-.why-us p {
-  font-size: 16px;
-  color: #979494;
-  white-space: pre-line;
-  text-align: right; /* Подрежда текста отляво */
-}
-
-.why-us h1 {
   color: #c40606;
-  font-size: xx-large;
-  text-align: right; /* Подрежда заглавието отляво */
+  margin-bottom: 20px;
+}
+.point {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.point .number {
+  font-size: 65px;
+  color: #c40606;
+  margin-right: 15px;
+}
+.point .content h3 {
+  font-size: 22px;
+  color: #c40606;
+  margin: 0 0 5px;
+  margin-top: 10%;
+}
+.point .content p {
+  font-size: 17px;
+  color: #666;
+   margin-top: -6%;
+}
+
+.image-section img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin-top: 18%;
 }
