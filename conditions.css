@@ -229,3 +229,78 @@
     color: #c40606;
     transform: scale(1.2);
   }
+
+  @media (max-width: 768px) {
+    nav a {
+      display: block;
+      padding: 12px;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  
+    header.top-banner {
+      padding: 40px 10px;
+    }
+  
+    header.top-banner h1 {
+      font-size: 24px;
+    }
+  
+    header.top-banner p {
+      font-size: 16px;
+    }
+  
+    .section {
+      flex-direction: column;
+      padding: 20px 10px;
+    }
+  
+    .section.dark .content,
+    .section .content {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .section img {
+      margin: 20px auto;
+      max-width: 90%;
+    }
+  
+    .footer .content {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+    }
+  
+    .footer .section {
+      width: 100%;
+    }
+  
+    .logo img,
+    .logo p {
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .subscribe-wrapper {
+      align-items: center;
+    }
+  
+    .letter {
+      max-width: 100%;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .letter input,
+    .letter button {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  }
+  
