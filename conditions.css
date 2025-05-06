@@ -79,7 +79,7 @@
   }
    
   .section.gray {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: #c40606;
   }
    
@@ -89,7 +89,7 @@
   }
    
   .section.red {
-    background-color: #c40606;
+    background: linear-gradient(to top, #c40606, #000000);
     color: white;
     flex-direction: column;
     text-align: center;
@@ -179,6 +179,7 @@
     background: #fff;
     border-radius: 5px;
     overflow: hidden;
+    gap: 20px;
   }
    
   .letter input {
