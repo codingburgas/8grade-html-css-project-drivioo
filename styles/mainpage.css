@@ -22,15 +22,19 @@ nav {
     flex-grow: 1;
     gap: 20px;
   }
-   
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
-    transition: 0.5s;
-    padding: 15px 20px;
+  .logo
+  {
+    background-color: #000000;
   }
+
+  .navText {
+  color: white;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  transition: 0.5s;
+  padding: 15px 20px;
+}
    
   nav a:hover {
     background-color: #c40606;

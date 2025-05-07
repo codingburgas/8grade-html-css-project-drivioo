@@ -24,7 +24,11 @@ nav img.logo {
   gap: 20px;
 }
  
-nav a {
+.logo{
+  background-color: #000000;
+}
+
+.navText {
   color: white;
   text-decoration: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

@@ -31,7 +31,7 @@ nav img.logo {
   gap: 20px;
 }
  
-nav a {
+.navText {
   color: white;
   text-decoration: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -40,9 +40,13 @@ nav a {
   padding: 15px 20px;
 }
  
-nav a:hover {
+nav a:hover  
+{
   background-color: #c40606;
   border-radius: 60px;
+}
+.logo{
+  background-color: #000000;
 }
 
 .main {
