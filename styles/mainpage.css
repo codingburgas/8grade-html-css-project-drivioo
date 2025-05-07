@@ -24,10 +24,7 @@ nav a:hover {
     width: 50%;
     display: flex;
     margin-top: 5%;
-    align-items: center;
-    justify-content: center;
-    margin-left: 500px;
- 
+
 }
 .down{
     color: white;
