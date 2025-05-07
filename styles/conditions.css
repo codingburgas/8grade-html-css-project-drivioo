@@ -219,7 +219,7 @@
   .social-icons {
     display: flex;
     gap: 15px;
-    margin-top: 15px;
+    margin-top: -100px;
   }
   
   .social-icons a {
@@ -306,4 +306,14 @@
       justify-content: center;
     }
   }
+  .Subscribe
+  {
+    margin-bottom: -120px;
+  }
+  .quickLinks
+  {
+    margin-bottom: -50px;
+  }
+  
+
   
