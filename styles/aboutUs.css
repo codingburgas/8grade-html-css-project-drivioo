@@ -163,7 +163,7 @@ nav a:hover {
 }
 
 .team {
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   padding: 40px;
   text-align: center;
 }
@@ -207,9 +207,6 @@ nav a:hover {
   margin: 10px 0 5px;
   font-size: 18px;
   color: #c40606;
-}
-.container{
-  
 }
 
 .footer {
@@ -334,6 +331,7 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
+  background-color: #000000;
 }
 .text-section {
   flex: 1;
