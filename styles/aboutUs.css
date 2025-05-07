@@ -370,3 +370,43 @@ nav a:hover {
   object-fit: cover;
   margin-top: 18%;
 }
+nav {
+  background-color: black;
+  padding: 10px 40px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-items li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+  padding: 15px 20px;
+  transition: background-color 0.5s;
+}
+
+.nav-items li a:hover {
+  background-color: #c40606;
+  border-radius: 60px;
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-items li a {
+    padding: 10px 15px;
+    font-size: large;
+  }
+}
+
