@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   color: #222;
@@ -34,7 +34,6 @@ nav img.logo {
 .navText {
   color: white;
   text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: x-large;
   transition: 0.5s;
   padding: 15px 20px;
@@ -122,7 +121,6 @@ nav a:hover
   flex-wrap: wrap;
   gap: 2rem;
   margin: 2rem 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .years-text1{
   color: #979494;
@@ -219,7 +217,7 @@ nav a:hover
   font-family: 'Segoe UI', sans-serif;
   padding: 40px 20px 20px;
 }
-
+ 
 .content {
   max-width: 1200px;
   margin: auto;
@@ -228,7 +226,7 @@ nav a:hover
   gap: 40px;
   justify-content: space-between;
 }
-
+ 
 .logo img {
   width: 200px;
   border-radius: 8px;
@@ -241,52 +239,52 @@ nav a:hover
   color: #ffffff;
   margin-left: -30%;
 }
-
+ 
 .section {
   flex: 1 1 220px;
   min-width: 200px;
 }
-
+ 
 .section h3 {
   font-size: 18px;
   margin-bottom: 12px;
   color: #ffffff;
 }
-
+ 
 .section ul {
   list-style: none;
   padding: 0;
   margin: 0 0 10px 0;
 }
-
+ 
 .section ul li {
   margin: 6px 0;
   font-size: 15px;
 }
-
+ 
 .section a {
   color: #ccc;
   text-decoration: none;
 }
-
+ 
 .section a:hover {
   color: #c40606;
 }
-
+ 
 .letter {
   display: flex;
   border-radius: 5px;
   overflow: hidden;
   background: #fff;
 }
-
+ 
 .letter input {
   flex: 1;
   padding: 10px;
   border: none;
   font-size: 14px;
 }
-
+ 
 .letter button {
   background-color: #c40606;
   color: white;
@@ -295,11 +293,11 @@ nav a:hover
   cursor: pointer;
   transition: 0.3s ease;
 }
-
+ 
 .letter button:hover {
   background-color: #00000088;
 }
-
+ 
 .bottom {
   border-top: 1px solid #333;
   margin-top: 40px;
@@ -308,9 +306,9 @@ nav a:hover
   font-size: 13px;
   color: #aaa;
   width: 1000%;        
-  box-sizing:content-box; 
+  box-sizing:content-box;
 }
-
+ 
 .social-icons {
   display: flex;
   gap: 15px;

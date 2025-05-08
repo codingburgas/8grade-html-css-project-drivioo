@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -30,7 +31,6 @@ nav img.logo {
 .navText {
     color: white;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     transition: 0.5s;
     padding: 15px 20px;
@@ -53,7 +53,6 @@ nav a:hover {
     text-align: center;
     padding-top: 3%;
     padding-bottom: 0%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .grid {
@@ -63,7 +62,6 @@ nav a:hover {
     width: 100%;
     max-width: 1000px;
     margin: 2% auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 60px;
 }
 
@@ -132,6 +130,74 @@ nav a:hover {
     display: flex;
 }
 
+/* Language dropdown styles */
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 18px;
+    column-gap: 3%;
+}
+
+.language-dropdown:hover .language-menu {
+    display: block;
+    column-gap: 3%;
+}
+
+.language-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    column-gap: 3%;
+}
+
+.language-button img {
+    width: 25px;
+    height: 20px;
+    vertical-align: middle;
+    column-gap: 3%;
+}
+
+/* Hide language menu by default */
+.language-menu {
+    display: none;
+    position: absolute;
+    top: 120%;
+    left: 3px;
+    background-color:none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 99;
+    min-width: 140px;
+    column-gap: 3%;
+}
+
+.language-menu a {
+    display: flex;
+    align-items: center;
+    padding: 10px 17px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    column-gap: 3%;
+}
+
+.language-menu a:hover {
+    background-color: rgb(0, 0, 0);
+    column-gap: 3%;
+}
+
+.language-menu img {
+    width: 25px;
+    height: 20px;
+    column-gap: 3%;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .background {
@@ -175,3 +241,4 @@ nav a:hover {
         padding-top: 5%;
     }
 }
+

@@ -28,7 +28,6 @@ body {
   .navText {
     color: white;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     transition: 0.5s;
     padding: 15px 20px;
@@ -41,7 +40,6 @@ body {
   .navText {
     color: white;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     transition: 0.5s;
     padding: 15px 20px;
