@@ -267,6 +267,66 @@ header.top-banner p {
   margin-bottom: 0;
 }
 
+/* Language dropdown styles */
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 18px;
+}
+ 
+.language-dropdown:hover .language-menu {
+  display: block;
+}
+ 
+.language-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+ 
+.language-button img {
+  width: 25px;
+  height: 20px;
+  vertical-align: middle;
+}
+ 
+/* Hide language menu by default */
+.language-menu {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 3px;
+  background-color:none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 99;
+  min-width: 140px;
+}
+ 
+.language-menu a {
+  display: flex;
+  align-items: center;
+  padding: 10px 17px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+ 
+.language-menu a:hover {
+  background-color: rgb(0, 0, 0);
+}
+ 
+.language-menu img {
+  width: 25px;
+  height: 20px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   nav a {
