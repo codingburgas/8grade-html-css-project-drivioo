@@ -1,49 +1,46 @@
+/* Reset and base styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-   
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    background-color: #fff;
-    line-height: 1.6;
-  }
-   
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  nav {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 40px;
-    position: relative;
-  }
-   
-  nav img.logo {
-    height: 50px;
-    margin-top: -0.3%;
-  }
-   
-  .nav-items {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    gap: 20px;
-  }
-   
-  .logo{
-    background-color: #000000;
-    margin-bottom: 5px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .navText {
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Navigation */
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  position: relative;
+}
+
+nav img.logo {
+  height: 50px;
+  margin-top: -0.3%;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.navText {
   color: white;
   text-decoration: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -51,273 +48,294 @@
   transition: 0.5s;
   padding: 15px 20px;
 }
-   
-  nav a:hover {
-    background-color: #c40606;
-    border-radius: 60px;
+
+nav a:hover {
+  background-color: #c40606;
+  border-radius: 60px;
+}
+
+/* Top Banner */
+header.top-banner {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header.top-banner h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+header.top-banner p {
+  font-size: 18px;
+}
+
+/* Sections */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+
+.section .content {
+  flex: 1 1 55%;
+  min-width: 280px;
+  padding: 10px;
+}
+
+.section img {
+  flex: 1 1 40%;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.section.gray {
+  background: white;
+  color: #c40606;
+}
+
+.section.dark {
+  background-color: #222;
+  color: white;
+}
+
+.section.dark .content {
+  margin-left: 50px;
+}
+
+.section.red {
+  background: linear-gradient(to top, #222, #c40606);
+  color: white;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section.red .content {
+  width: 100%;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 20px 20px;
+}
+
+.footer .content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer .logo,
+.footer .section,
+.footer .subscribe-wrapper {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+
+.footer .section h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.footer .section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.footer .section ul li {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.footer .section a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer .section a:hover {
+  color: #c40606;
+}
+
+.logo {
+  background-color: #000;
+  margin-bottom: 5px;
+}
+
+.logo img {
+  width: 200px;
+  border-radius: 8px;
+  margin-top: 40%;
+  margin-left: -30%;
+}
+
+.logo p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #fff;
+  margin-left: -30%;
+}
+
+/* Newsletter form */
+.subscribe-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.letter {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  max-width: 100%;
+}
+
+.letter input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.letter button {
+  background-color: #c40606;
+  color: white;
+  border: none;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.letter button:hover {
+  background-color: #00000088;
+}
+
+/* Bottom bar */
+.bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #c40606;
+  transform: scale(1.2);
+}
+
+/* Remove unnecessary negative margins */
+.Subscribe {
+  margin-bottom: 0;
+}
+
+.quickLinks {
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    padding: 12px;
+    font-size: 1.1rem;
+    text-align: center;
   }
-  
+
   header.top-banner {
-    background-color: #000000;
-    color: #ffffff;
-    text-align: center;
-    padding: 60px 20px;
+    padding: 40px 10px;
   }
-   
+
   header.top-banner h1 {
-    margin-bottom: 10px;
-    font-size: 32px;
+    font-size: 24px;
   }
-   
+
   header.top-banner p {
-    font-size: 18px;
+    font-size: 16px;
   }
-   
+
   .section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
-  }
-   
-  .section.dark .content {
-    margin-left: 50px;
-  }
-   
-  .section .content {
-    flex: 1 1 55%;
-    min-width: 280px;
-    padding: 10px;
-  }
-   
-  .section img {
-    flex: 1 1 40%;
-    max-width: 300px;
-    min-width: 200px;
-  }
-   
-  .section.gray {
-    background: white;
-    color: #c40606;
-  }
-   
-  .section.dark {
-    background-color: #222;
-    color: white;
-  }
-   
-  .section.red {
-    background: linear-gradient(to top, #222, #c40606);
-    color: white;
     flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .section.dark .content,
+  .section .content {
+    margin-left: 0;
     text-align: center;
   }
-   
-  .section.red .content {
+
+  .section img {
+    margin: 20px auto;
+    max-width: 90%;
+  }
+
+  .footer .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer .logo,
+  .footer .section,
+  .subscribe-wrapper {
     width: 100%;
   }
-   
-  .centered {
-    text-align: center;
-  }
-   
-  .footer {
-    background: #000000;
-    color: #e0e0e0;
-    font-family: 'Segoe UI', sans-serif;
-    padding: 40px 20px 20px;
-  }
-  
-  .content {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: space-between;
-  }
-  
-  .logo img {
-    width: 200px;
-    border-radius: 8px;
-    margin-top: 40%;
-    margin-left: -30%;
-  }
+
+  .logo img,
   .logo p {
-    margin-top: 12px;
-    font-size: 16px;
-    color: #ffffff;
-    margin-left: -30%;
-  }
-  
-  .section {
-    flex: 1 1 220px;
-    min-width: 200px;
-  }
-  
-  .section h3 {
-    font-size: 18px;
-    margin-bottom: 12px;
-    color: #ffffff;
-  }
-  
-  .section ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 10px 0;
-  }
-  
-  .section ul li {
-    margin: 6px 0;
-    font-size: 15px;
-  }
-  
-  .section a {
-    color: #ccc;
-    text-decoration: none;
-  }
-  
-  .section a:hover {
-    color: #c40606;
-  }
-  
-  .letter {
-    display: flex;
-    border-radius: 5px;
-    overflow: hidden;
-    background: #fff;
-  }
-  
-  .letter input {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    font-size: 14px;
-  }
-  
-  .letter button {
-    background-color: #c40606;
-    color: white;
-    border: none;
-    padding: 0 16px;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-  
-  .letter button:hover {
-    background-color: #00000088;
-  }
-  
-  .bottom {
-    border-top: 1px solid #333;
-    margin-top: 40px;
-    padding-top: 15px;
+    margin: 0 auto;
     text-align: center;
-    font-size: 13px;
-    color: #aaa;
-    width: 1000%;        
-    box-sizing:content-box; 
   }
-  
+
+  .letter {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .letter input,
+  .letter button {
+    width: 100%;
+    text-align: center;
+  }
+
   .social-icons {
-    display: flex;
-    gap: 15px;
-    margin-top: -100px;
+    justify-content: center;
   }
-  
-  .social-icons a {
-    color: #fff;
-    font-size: 24px;
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .social-icons a:hover {
-    color: #c40606;
-    transform: scale(1.2);
-  }
-
-  @media (max-width: 768px) {
-    nav a {
-      display: block;
-      padding: 12px;
-      font-size: 1.1rem;
-      text-align: center;
-    }
-  
-    header.top-banner {
-      padding: 40px 10px;
-    }
-  
-    header.top-banner h1 {
-      font-size: 24px;
-    }
-  
-    header.top-banner p {
-      font-size: 16px;
-    }
-  
-    .section {
-      flex-direction: column;
-      padding: 20px 10px;
-    }
-  
-    .section.dark .content,
-    .section .content {
-      margin-left: 0;
-      text-align: center;
-    }
-  
-    .section img {
-      margin: 20px auto;
-      max-width: 90%;
-    }
-  
-    .footer .content {
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      text-align: center;
-    }
-  
-    .footer .section {
-      width: 100%;
-    }
-  
-    .logo img,
-    .logo p {
-      margin: 0 auto;
-      text-align: center;
-    }
-  
-    .subscribe-wrapper {
-      align-items: center;
-    }
-  
-    .letter {
-      max-width: 100%;
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    .letter input,
-    .letter button {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .social-icons {
-      justify-content: center;
-    }
-  }
-  .Subscribe
-  {
-    margin-bottom: -120px;
-  }
-  .quickLinks
-  {
-    margin-bottom: -50px;
-  }
-  
-
-  
+}
