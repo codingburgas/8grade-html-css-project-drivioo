@@ -1,0 +1,321 @@
+/* Global layout and theme */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: #ffffff;
+  }
+  
+  /* Full height structure */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    position: relative;
+  }
+   
+  nav img.logo {
+    height: 50px;
+  }
+   
+  .nav-items {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 20px;
+  }
+   
+  .navText {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    transition: 0.5s;
+    padding: 15px 20px;
+  }
+   
+  nav a:hover  
+  {
+    background-color: #c40606;
+    border-radius: 60px;
+  }
+  
+  .logo
+  {
+    background-color: #000000;
+  }
+  /* Button */
+  .back {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color:#111;
+  }
+.back a{
+    background-color: #00000000;
+}
+  .back a
+  {
+    text-decoration: none;
+    color:#ffffff;
+  }
+  
+
+  /* Main content layout */
+  .main-content {
+    flex: 1;
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  /* Panels */
+  .left-panel, .right-panel {
+    flex: 1;
+  }
+  
+  .price {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .car-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    margin: 1rem 0;
+  }
+  
+  .rating-value {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Right side box */
+  .right-panel {
+    background: #111;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    color: #ffffff;
+  }
+  
+  .details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .details li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .main_info
+  {
+    font-size: 22px;
+  }
+  .section {
+    margin-top: 2rem;
+  }
+  
+  /* Button */
+  .order-box {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  
+  .order-box button {
+    padding: 0.75rem 2rem;
+    background: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  .order-box button:hover {
+    background:  #c40606;
+  }
+  .footer {
+    background: #000000;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px 20px 20px;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 40%;
+    margin-left: -30%;
+  }
+  .logo p {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: -30%;
+  }
+  
+  .section {
+    flex: 1 1 220px;
+    min-width: 200px;
+  }
+  
+  .section h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #ffffff;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+  
+  .section ul li {
+    margin: 6px 0;
+    font-size: 15px;
+  }
+  
+  .section a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .section a:hover {
+    color: #c40606;
+  }
+  
+  .letter {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  .letter input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+  }
+  
+  .letter button {
+    background-color: #c40606;
+    color: white;
+    border: none;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .letter button:hover {
+    background-color: #00000088;
+  }
+  
+  .bottom {
+    border-top: 1px solid #333;
+    margin-top: 40px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    width: 1000%;        
+    box-sizing:content-box; 
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #c40606;
+    transform: scale(1.2);
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  .text-section {
+    flex: 1;
+    padding: 40px;
+  }
+  .text-section h1 {
+    font-size: 40px;
+    color: #c40606;
+    margin-bottom: 20px;
+  }
+  .point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .point .number {
+    font-size: 65px;
+    color: #c40606;
+    margin-right: 15px;
+  }
+  .point .content h3 {
+    font-size: 22px;
+    color: #c40606;
+    margin: 0 0 5px;
+    margin-top: 10%;
+  }
+  .point .content p {
+    font-size: 17px;
+    color: #666;
+     margin-top: -6%;
+  }
+  
+  .image-section img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin-top: 18%;
+  }
