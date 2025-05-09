@@ -1,23 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Includes padding and border in element's total width/height */
 }
  
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #222;
 }
  
 nav {
   background-color: black;
-  display: flex;
+  display: flex; /* Makes the container a flexbox */
   align-items: center;
   justify-content: space-between;
   padding: 10px 40px;
-  position: relative;
+  position: relative; /* Makes it possible to move child elements based on this element */
 }
  
 nav img.logo {
@@ -27,37 +25,26 @@ nav img.logo {
 .nav-items {
   display: flex;
   justify-content: center;
-  flex-grow: 1;
+  flex-grow: 1; /* Lets this item grow to fill extra space */
   gap: 20px;
+  list-style: none; /* Removes bullets or numbers from the list */
 }
  
-.navText {
-  color: white;
-  text-decoration: none;
-  font-size: x-large;
-  transition: 0.5s;
-  padding: 15px 20px;
-}
- 
-nav a:hover  
-{
-  background-color: #c40606;
-  border-radius: 60px;
-}
+.nav-items li a,
+.navText,
 .navIcon {
   color: white;
   text-decoration: none;
   font-size: x-large;
   padding: 15px 20px;
-  transition: 0.5s;
+  transition: background-color 0.5s;
 }
-
+ 
+.nav-items li a:hover,
+.navText:hover,
 .navIcon:hover {
   background-color: #c40606;
   border-radius: 60px;
-}
-.logo{
-  background-color: #000000;
 }
  
 .main {
@@ -65,20 +52,20 @@ nav a:hover
   text-align: center;
   color: black;
   width: 100%;
-  height: 50vh;
-  overflow: hidden;
+  height: 400px;
+  overflow: hidden;  /* Hides anything that goes outside this element */
   background-color: #f4f4f4;
 }
  
 .main video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Scales video to cover container */
 }
  
 .text {
   color: #c40606;
-  position: absolute;
+  position: absolute; /* Positions the element relative to its nearest positioned ancestor */
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -89,7 +76,7 @@ nav a:hover
 }
  
 .text p {
-  font-size: 1.2em;
+  font-size: 19.2px;
 }
  
 .mission {
@@ -121,8 +108,11 @@ nav a:hover
   margin-bottom: 30px;
 }
  
-.missionphoto {
-  border-radius: 0px;
+.mission-image,
+.mission-right img {
+  width: 450px;
+  height: auto;
+  border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.336);
 }
@@ -130,50 +120,23 @@ nav a:hover
 .years-box {
   display: flex;
   align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin: 2rem 0;
-}
-.years-text1{
-  color: #979494;
-}
- 
-.years-left {
-  min-width: 150px;
+  flex-wrap: wrap; /* Allows items to move to the next line if they don't fit in one row */
+  gap: 32px;
+  margin: 32px 0;
 }
  
 .years-number {
-  font-size: 4rem;
+  font-size: 64px;
   font-weight: bold;
   color: #c40606;
-  display: block;
 }
  
-.years-text {
-  font-size: 1.7rem;
-  font-weight: 600;
+.years-text,
+.years-text1 {
+  font-size: 27.2px;
+  font-weight: 600; /* Makes the text bold */
   color: #c40606;
-  display: block;
   margin-top: 2.9%;
-  margin-left: -0.8%;
-}
- 
-.mission-right img {
-  width: 500px;
-  height: auto;
-  border-radius: 12px;
-  object-fit: cover;
-}
- 
-.years {
-  font-size: 2.5em;
-  color: red;
-}
- 
-.mission-image {
-  width: 450px;
-  border-radius: 12px;
-  object-fit: cover;
 }
  
 .team {
@@ -186,7 +149,6 @@ nav a:hover
   font-size: 36px;
   color: #c40606;
   margin-bottom: 30px;
- 
 }
  
 .team-members {
@@ -207,12 +169,12 @@ nav a:hover
 }
  
 .member:hover {
-  transform: translateY(-10px);
+  transform: translateY(-10px); /* Hover lift effect */
 }
  
 .member img {
   width: 100%;
-  height: auto;
+  height: auto; /* The height adjusts automatically to fit the content */
   border-radius: 10px;
   margin-bottom: 15px;
 }
@@ -245,6 +207,7 @@ nav a:hover
   margin-top: 40%;
   margin-left: -30%;
 }
+ 
 .logo p {
   margin-top: 12px;
   font-size: 16px;
@@ -276,7 +239,7 @@ nav a:hover
  
 .section a {
   color: #ccc;
-  text-decoration: none;
+  text-decoration: none; /* Removes any underline, overline, or strikethrough from the text */
 }
  
 .section a:hover {
@@ -286,14 +249,13 @@ nav a:hover
 .letter {
   display: flex;
   border-radius: 5px;
-  overflow: hidden;
   background: #fff;
 }
  
 .letter input {
   flex: 1;
   padding: 10px;
-  border: none;
+  border: none; /* Removes any border from the element */
   font-size: 14px;
 }
  
@@ -302,7 +264,7 @@ nav a:hover
   color: white;
   border: none;
   padding: 0 16px;
-  cursor: pointer;
+  cursor: pointer; /* Changes the cursor to a hand when hovering over the element */
   transition: 0.3s ease;
 }
  
@@ -317,8 +279,8 @@ nav a:hover
   text-align: center;
   font-size: 13px;
   color: #aaa;
-  width: 1000%;        
-  box-sizing:content-box;
+  width: 100%;
+  box-sizing: content-box; /* Width and height don't include padding or border */
 }
  
 .social-icons {
@@ -335,93 +297,70 @@ nav a:hover
  
 .social-icons a:hover {
   color: #c40606;
-  transform: scale(1.2);
+  transform: scale(1.2); /* Slight zoom on hover */
 }
  
 .container {
   display: flex;
   max-width: 1200px;
   margin: 50px auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
   background-color: #000000;
 }
+ 
 .text-section {
   flex: 1;
   padding: 40px;
 }
+ 
 .text-section h1 {
   font-size: 40px;
   color: #c40606;
   margin-bottom: 20px;
 }
+ 
 .point {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
+ 
 .point .number {
   font-size: 65px;
   color: #c40606;
   margin-right: 15px;
 }
+ 
 .point .content h3 {
   font-size: 22px;
   color: #c40606;
   margin: 0 0 5px;
   margin-top: 10%;
 }
+ 
 .point .content p {
   font-size: 17px;
   color: #666;
-   margin-top: -6%;
+  margin-top: -6%;
 }
  
 .image-section img {
   width: 80%;
   height: 80%;
-  object-fit: cover;
+  object-fit: cover; /* Makes the image cover the container, cropping it if necessary */
   margin-top: 18%;
 }
-nav {
-  background-color: black;
-  padding: 10px 40px;
-}
  
-.nav-items {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 20px;
-}
- 
-.nav-items li a {
-  color: white;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: x-large;
-  padding: 15px 20px;
-  transition: background-color 0.5s;
-}
- 
-.nav-items li a:hover {
-  background-color: #c40606;
-  border-radius: 60px;
-}
- 
-/* Language dropdown styles */
 .language-dropdown {
   position: relative;
-  display: inline-block;
+  display: inline-block; /* Makes the element behave like an inline element but allows setting width and height */
   margin-left: 30px;
   font-size: 18px;
 }
  
 .language-dropdown:hover .language-menu {
-  display: block;
+  display: block; /* Makes the element take up the full width of its container and start on a new line */
 }
  
 .language-button {
@@ -437,20 +376,17 @@ nav {
 .language-button img {
   width: 25px;
   height: 20px;
-  vertical-align: middle;
 }
  
-/* Hide language menu by default */
 .language-menu {
   display: none;
-  position: absolute;
+  position: absolute; /* Positions the element relative to its nearest positioned ancestor */
   top: 120%;
   left: 3px;
-  background-color:none;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   border-radius: 8px;
   overflow: hidden;
-  z-index: 99;
+  z-index: 99; /* Sets the stacking order of the element, higher values appear in front */
   min-width: 140px;
 }
  
@@ -465,6 +401,7 @@ nav {
  
 .language-menu a:hover {
   background-color: rgb(0, 0, 0);
+  color: white;
 }
  
 .language-menu img {
@@ -474,7 +411,7 @@ nav {
  
 @media (max-width: 768px) {
   .nav-items {
-    flex-direction: column;
+    flex-direction: column; /* Arranges flex items in a vertical column */
     align-items: center;
   }
  
