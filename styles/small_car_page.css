@@ -42,34 +42,6 @@ body {
   .logo{
     background-color: #000000;
   }
- 
-   /* Language dropdown styles */
-.language-dropdown {
-    position: relative;
-    display: inline-block;
-    margin-left: 30px;
-    font-size: 18px;
-  }
-   
-  .language-dropdown:hover .language-menu {
-    display: block;
-  }
-   
-  .language-button {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-   
-  .language-button img {
-    width: 25px;
-    height: 20px;
-    vertical-align: middle;
-  }
    
   /* Hide language menu by default */
   .language-menu {
@@ -307,4 +279,5 @@ body {
     color: #c40606;
     transform: scale(1.2);
   }
+
  
