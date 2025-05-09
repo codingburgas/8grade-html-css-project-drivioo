@@ -162,7 +162,7 @@ body {
   .order-box button {
     padding: 0.75rem 2rem;
     background: #ffffff;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -177,7 +177,7 @@ body {
 
   .order-box a .back
   {
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   .order_now-button a
