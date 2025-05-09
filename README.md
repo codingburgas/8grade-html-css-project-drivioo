@@ -39,7 +39,7 @@ The goal of the app is to combine convenience with flexibility, making car renta
 | <h3>Yanko Yanakiev</a></h3> | Scrum Trainer  |🟩 8V |
 | <h3>Maria Pavlova</a></h3> | Designer |🟨 8A |
 | <h3>Iveta Noneva</a></h3> |  Frontend Developer  |🟥 8B |
-| <h3>Velin Markov</a></h3> |   Backend Developer  |​🟦​ 8A |
+| <h3>Velin Markov</a></h3> |   Backend Developer  |​🟦​ 8G|
 
 # 🛠️ Installation
 1. 📥 Clone the project using the "Code" button or run:
