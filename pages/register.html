@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Login | Drvioo</title>
+  <title>Register | Drvioo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/login.css">
+  <link rel="stylesheet" href="../styles/register.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 </head>
 <body>
   <div class="photo"><img src="../assets/log in and registur/login30.jpg"> </div>
   <div class="container">
-    <h2>Login to Drvioo</h2>
+    <h2>Register to Drvioo</h2>
     <p>with</p>
 
+   
     <div class="social-login">
       <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
       <a href="https://google.com" target="_blank"><i class="fab fa-google"></i></a>
@@ -22,6 +22,10 @@
 
     <form>
       <div class="input-group">
+        <label>Username</label>
+        <input type="text" placeholder="Enter your username" required>
+      </div>
+      <div class="input-group">
         <label>Email</label>
         <input type="email" placeholder="you@example.com" required>
       </div>
@@ -29,14 +33,17 @@
         <label>Password</label>
         <input type="password" placeholder="********" required>
       </div>
-      <div class="btn">
-      <a href="../pages/mainpage.html" class="submit">Log In</a>
+      <div class="input-group">
+        <label>Confirm Password</label>
+        <input type="password" placeholder="********" required>
+      </div>
+       <div class="btn">
+      <a href="../pages/mainpage.html" class="submit">Register</a>
     </div>
     </form>
     <div class="switch-link">
-      Don't have an account? <a href="../pages/register.html"><bold>Register</bold></a>
+      Already have an account? <a href="../pages/login.html"><bold>Login</bold></a>
     </div>
   </div>
-
 </body>
 </html>
