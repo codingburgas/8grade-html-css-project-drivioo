@@ -18,7 +18,6 @@ img {
   display: block;
 }
 
-/* Navigation */
 nav {
   background-color: black;
   display: flex;
@@ -27,19 +26,18 @@ nav {
   padding: 10px 40px;
   position: relative;
 }
-
+ 
 nav img.logo {
   height: 50px;
-  margin-top: -0.3%;
 }
-
+ 
 .nav-items {
   display: flex;
   justify-content: center;
   flex-grow: 1;
   gap: 20px;
 }
-
+ 
 .navText {
   color: white;
   text-decoration: none;
@@ -47,8 +45,21 @@ nav img.logo {
   transition: 0.5s;
   padding: 15px 20px;
 }
+ 
+nav a:hover  
+{
+  background-color: #c40606;
+  border-radius: 60px;
+}
+.navIcon {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+  padding: 15px 20px;
+  transition: 0.5s;
+}
 
-nav a:hover {
+.navIcon:hover {
   background-color: #c40606;
   border-radius: 60px;
 }

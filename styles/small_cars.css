@@ -39,6 +39,18 @@ html, body {
     flex-grow: 1;
     gap: 20px;
   }
+  .navIcon {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+  padding: 15px 20px;
+  transition: 0.5s;
+}
+
+.navIcon:hover {
+  background-color: #c40606;
+  border-radius: 60px;
+}
    
   .navText {
     color: white;

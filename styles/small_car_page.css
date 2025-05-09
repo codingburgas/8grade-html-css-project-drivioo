@@ -42,6 +42,18 @@ body {
   .logo{
     background-color: #000000;
   }
+  .navIcon {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+  padding: 15px 20px;
+  transition: 0.5s;
+}
+
+.navIcon:hover {
+  background-color: #c40606;
+  border-radius: 60px;
+}
    
   /* Hide language menu by default */
   .language-menu {
