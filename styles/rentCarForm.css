@@ -29,20 +29,33 @@ body {
 }
  
 .form input,
-.form select,
-.form button {
+.form select{
   padding: 3%;
   border: 1px solid #ccc;
   border-radius: 0.5%;
   font-size: 1rem;
 }
- 
-.form button {
+
+.btn {
+  width: 94%;
+  padding: 12px;
   background-color: #c40606;
-  color: white;
-  cursor: pointer; /*Your mouse will be pointing*/
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  align-items: center;
+
+}
+.btn a{
+  text-decoration: none;
+  color: #ffffff;
 }
  
-.form button:hover {
-  background: #572626;
+.btn:hover {
+  background-color: #c40606;
+  color: #ffffff;
 }
