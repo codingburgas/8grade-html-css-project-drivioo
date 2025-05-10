@@ -1,7 +1,7 @@
 <h1 align="center" ><b> DRIVIOO  </b></h1>
 <div align="center">
 <a href=" rel="noopener">
-<img width=30% height=10% src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3FpMzl6ZmF4ZTRoMmRjb2FxczY2YjVndGQ5dWtuaHkwZXF5cXh1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RKTFQZpTOuLaoCcn71/giphy.gif" alt="PastPulse-logo">
+<img width=30% height=10% src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3FpMzl6ZmF4ZTRoMmRjb2FxczY2YjVndGQ5dWtuaHkwZXF5cXh1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RKTFQZpTOuLaoCcn71/giphy.gif" alt="Drivioo-viedo">
 </div>
 <div align="center">
     <p>| ✔️​ Easy online booking | ✔️ Rent a car | ✔️​ 24/7 customer support | </p>
@@ -21,10 +21,10 @@ The goal of the app is to combine convenience with flexibility, making car renta
   
   <a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/48/null/visual-studio-code-2019.png" alt="Visual Studio Code 2019"/></a>
   <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word logo" width=48px /></a>
-  <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width=48px />
+  <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width=48px /></a>
   <a href="https://git-scm.com/"><img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"/></a>
   <a href="https://git-scm.com/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" heigh=48px width=48px/></a>
-  <img src="https://sb.kaleidousercontent.com/67418/900x900/af5236a63b/figma.jpg" alt="Figma" heigh=55px width=58px>
+  <img src="https://sb.kaleidousercontent.com/67418/900x900/af5236a63b/figma.jpg" alt="Figma" heigh=60px width=64px>
   
 </p> 
 
