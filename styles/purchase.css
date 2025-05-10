@@ -48,20 +48,20 @@
  
   .btn {
     font-size: 18px;
-    color: #c40606;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.7);
-    border: 2px solid #c40606;
+    border: 2px solid #ffffff;
     padding: 12px 28px;
     border-radius: 50px;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 0 0 10px #c40606;
+    box-shadow: 0 0 10px #ffffff;
   }
  
   .btn:hover {
-    background-color: #fff;
-    color: #c40606;
-    box-shadow: 0 0 20px #c40606;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0 0 20px #ffffff;
     transform: scale(1.05);
   }
  

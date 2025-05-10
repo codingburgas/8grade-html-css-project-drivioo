@@ -1,61 +1,89 @@
 body {
   margin: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background: #f3f4f6;
+  background: linear-gradient(to right, #000000, #ffffff, #000000);
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow-y: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  padding: 1rem;
-  background: linear-gradient(to right, #000000, #e9ecef, black);
 }
- 
+
 .form {
-  background: rgb(255, 255, 255);
-  padding: 2%;
-  border-radius: 2%;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.85);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 18px;
+  color: #fff;
 }
- 
+
 .form h2 {
   text-align: center;
-  font-size:xx-large;
-  color: #c40606;
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
- 
+
 .form input,
-.form select{
-  padding: 3%;
-  border: 1px solid #ccc;
-  border-radius: 0.5%;
+.form select {
+  padding: 14px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background: #1e1e1e;
+  color: #f9f9f9;
   font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form input:focus,
+.form select:focus {
+
+  outline: none;
+}
+
+label {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-top: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .btn {
-  width: 94%;
-  padding: 12px;
-  background-color: #c40606;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
+  font-size: 18px;
   color: #ffffff;
+  background-color:#1e1e1e ;
+  border: 2px solid #ffffff;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #ffffff;
   align-items: center;
+}
 
-}
-.btn a{
-  text-decoration: none;
-  color: #ffffff;
-}
- 
 .btn:hover {
-  background-color: #c40606;
+  background-color: #444;
   color: #ffffff;
+  box-shadow: 0 0 20px #ffffff;
+  transform: scale(1.05);
+}
+
+.btn a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
