@@ -163,6 +163,9 @@ body {
     font-size: 16px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: none;
   }
  
   .rent-button:hover {
@@ -173,6 +176,7 @@ body {
   {
     text-decoration: none;
     color: #000000;
+  
   }
  
   /* Footer Styling */
