@@ -13,8 +13,9 @@
 The goal of the app is to combine convenience with flexibility, making car rental simple, fast, and accessible to everyone. The app allows you to rent a car for a few hours or days — for a specific period of time. With the features we've added, choosing the right car becomes easier and more convenient.
 
 
-
-
+<div align="center">
+<img src="assets/whiteLogo.png" alt="Drivioo logo">
+</div>
 
 # 🛠️💻 Languages, Frameworks, and Tools
 <p align="left">
@@ -29,7 +30,7 @@ The goal of the app is to combine convenience with flexibility, making car renta
 </p> 
 
 # 📁 Documents
-+ [Presentation]()
++ [Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/ihnoneva24_codingburgas_bg/EUG0qrcLXVpIvbXZlWNfRO8BQO5Cd3snPMWTtsLI9Q2O7A?e=EOUVOe)
 + [Documentation]()
 
 # 👥 Team Members
