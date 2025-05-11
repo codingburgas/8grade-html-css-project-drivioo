@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     
-    background: black;
+    background: rgb(201, 201, 201);
     color: #ffffff;
   }
   
@@ -341,9 +341,17 @@ body {
      margin-top: -6%;
   }
   
-  .image-section img {
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
-    margin-top: 18%;
-  }
+  .car-viewer {
+  perspective: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.car-viewer iframe {
+  width: 750px;
+  height: 350px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
