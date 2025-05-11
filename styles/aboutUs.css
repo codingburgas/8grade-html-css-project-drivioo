@@ -408,15 +408,3 @@ nav img.logo {
   width: 25px;
   height: 20px;
 }
- 
-@media (max-width: 768px) {
-  .nav-items {
-    flex-direction: column; /* Arranges flex items in a vertical column */
-    align-items: center;
-  }
- 
-  .nav-items li a {
-    padding: 10px 15px;
-    font-size: large;
-  }
-}
