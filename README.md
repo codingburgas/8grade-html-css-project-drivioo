@@ -25,7 +25,7 @@ The goal of the app is to combine convenience with flexibility, making car renta
   <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width=48px /></a>
   <a href="https://git-scm.com/"><img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"/></a>
   <a href="https://git-scm.com/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" heigh=48px width=48px/></a>
-  <img src="https://sb.kaleidousercontent.com/67418/900x900/af5236a63b/figma.jpg" alt="Figma" heigh=60px width=64px>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/960px-Figma-logo.svg.png" alt="Figma" heigh=30px width=28px>
   
 </p> 
 
