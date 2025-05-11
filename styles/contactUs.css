@@ -377,3 +377,53 @@ background-color: rgb(0, 0, 0);
 width: 25px;
 height: 20px;
 }
+
+@media (max-width: 768px) {
+  .nav-items {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .form input,
+  .form textarea {
+    width: 100%;
+  }
+
+  .logo img {
+    margin: 0;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .language-dropdown {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-items {
+    align-items: flex-start;
+  }
+
+  .navText,
+  .navIcon {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+}
