@@ -186,13 +186,12 @@ header.top-banner p {
 
 .logo {
   background-color: #000;
-  margin-bottom: 5px;
 }
 
 .logo img {
   width: 200px;
   border-radius: 8px;
-  margin-top: 40%;
+  margin-top: 39%;
   margin-left: -30%;
 }
 

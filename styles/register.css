@@ -3,14 +3,19 @@ body {
     display: flex;
     height: 100vh;
     background-color: #000000;
+    overflow: hidden;
   }
    
   .photo {
     width: 50%;
     height: 50%;
     margin-left: 4%;
-    gap: 5%;
+    margin-right: -6%;
    
+  }
+
+  img {
+    width: 80%;
   }
    
   .container {
@@ -93,8 +98,10 @@ body {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    color: #ffffff;
   }
-  .btn a{
+  
+  a{
     text-decoration: none;
     color: #ffffff;
   }
